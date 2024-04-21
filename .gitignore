@@ -1,0 +1,8 @@
+# Ignore model files
+*.pkl
+*.h5
+*.model
+*.sav
+
+# Ignore video files
+*.mp4
