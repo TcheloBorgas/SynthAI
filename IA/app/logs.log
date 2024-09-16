@@ -1,0 +1,765 @@
+2024-09-16 13:10:43,076:WARNING:C:\Users\pytho\AppData\Local\Programs\Python\Python311\Lib\site-packages\pycaret\internal\pipeline.py:146: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '24.2', 'setuptools': '65.5.0', 'pycaret': '3.3.0', 'IPython': '8.22.2', 'ipywidgets': '8.1.2', 'tqdm': '4.66.2', 'numpy': '1.26.4', 'pandas': '2.1.4', 'jinja2': '3.1.3', 'scipy': '1.11.4', 'joblib': '1.3.2', 'sklearn': '1.4.1.post1', 'pyod': '1.1.3', 'imblearn': '0.12.0', 'category_encoders': '2.6.3', 'lightgbm': '4.3.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.7.5', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.19.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.1', 'sktime': '0.27.0', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.8', 'markupsafe': '2.1.5', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.11.7', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '24.0', 'setuptools': '65.5.0', 'pycaret': '3.3.0', 'IPython': '8.22.2', 'ipywidgets': '8.1.2', 'tqdm': '4.66.2', 'numpy': '1.26.4', 'pandas': '2.1.4', 'jinja2': '3.1.3', 'scipy': '1.11.4', 'joblib': '1.3.2', 'sklearn': '1.4.1.post1', 'pyod': '1.1.3', 'imblearn': '0.12.0', 'category_encoders': '2.6.3', 'lightgbm': '4.3.0', 'numba': '0.59.1', 'requests': '2.31.0', 'matplotlib': '3.7.5', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.20.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.1', 'sktime': '0.27.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.8', 'markupsafe': '2.1.5', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.11.8', 'machine': 'AMD64'}}
+  warnings.warn(
+
+2024-09-16 13:11:05,623:WARNING:C:\Users\pytho\AppData\Local\Programs\Python\Python311\Lib\site-packages\pycaret\internal\pipeline.py:146: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '24.2', 'setuptools': '65.5.0', 'pycaret': '3.3.0', 'IPython': '8.22.2', 'ipywidgets': '8.1.2', 'tqdm': '4.66.2', 'numpy': '1.26.4', 'pandas': '2.1.4', 'jinja2': '3.1.3', 'scipy': '1.11.4', 'joblib': '1.3.2', 'sklearn': '1.4.1.post1', 'pyod': '1.1.3', 'imblearn': '0.12.0', 'category_encoders': '2.6.3', 'lightgbm': '4.3.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.7.5', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.19.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.1', 'sktime': '0.27.0', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.8', 'markupsafe': '2.1.5', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.11.7', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '24.0', 'setuptools': '65.5.0', 'pycaret': '3.3.0', 'IPython': '8.22.2', 'ipywidgets': '8.1.2', 'tqdm': '4.66.2', 'numpy': '1.26.4', 'pandas': '2.1.4', 'jinja2': '3.1.3', 'scipy': '1.11.4', 'joblib': '1.3.2', 'sklearn': '1.4.1.post1', 'pyod': '1.1.3', 'imblearn': '0.12.0', 'category_encoders': '2.6.3', 'lightgbm': '4.3.0', 'numba': '0.59.1', 'requests': '2.31.0', 'matplotlib': '3.7.5', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.20.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.1', 'sktime': '0.27.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.8', 'markupsafe': '2.1.5', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.11.8', 'machine': 'AMD64'}}
+  warnings.warn(
+
+2024-09-16 13:12:45,216:WARNING:C:\Users\pytho\AppData\Local\Programs\Python\Python311\Lib\site-packages\pycaret\internal\pipeline.py:146: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '24.2', 'setuptools': '65.5.0', 'pycaret': '3.3.0', 'IPython': '8.22.2', 'ipywidgets': '8.1.2', 'tqdm': '4.66.2', 'numpy': '1.26.4', 'pandas': '2.1.4', 'jinja2': '3.1.3', 'scipy': '1.11.4', 'joblib': '1.3.2', 'sklearn': '1.4.1.post1', 'pyod': '1.1.3', 'imblearn': '0.12.0', 'category_encoders': '2.6.3', 'lightgbm': '4.3.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.7.5', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.19.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.1', 'sktime': '0.27.0', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.8', 'markupsafe': '2.1.5', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.11.7', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '24.0', 'setuptools': '65.5.0', 'pycaret': '3.3.0', 'IPython': '8.22.2', 'ipywidgets': '8.1.2', 'tqdm': '4.66.2', 'numpy': '1.26.4', 'pandas': '2.1.4', 'jinja2': '3.1.3', 'scipy': '1.11.4', 'joblib': '1.3.2', 'sklearn': '1.4.1.post1', 'pyod': '1.1.3', 'imblearn': '0.12.0', 'category_encoders': '2.6.3', 'lightgbm': '4.3.0', 'numba': '0.59.1', 'requests': '2.31.0', 'matplotlib': '3.7.5', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.20.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.1', 'sktime': '0.27.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.8', 'markupsafe': '2.1.5', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.11.8', 'machine': 'AMD64'}}
+  warnings.warn(
+
+2024-09-16 13:24:45,676:WARNING:C:\Users\pytho\AppData\Local\Programs\Python\Python311\Lib\site-packages\pycaret\internal\pipeline.py:146: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '24.2', 'setuptools': '65.5.0', 'pycaret': '3.3.0', 'IPython': '8.22.2', 'ipywidgets': '8.1.2', 'tqdm': '4.66.2', 'numpy': '1.26.4', 'pandas': '2.1.4', 'jinja2': '3.1.3', 'scipy': '1.11.4', 'joblib': '1.3.2', 'sklearn': '1.4.1.post1', 'pyod': '1.1.3', 'imblearn': '0.12.0', 'category_encoders': '2.6.3', 'lightgbm': '4.3.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.7.5', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.19.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.1', 'sktime': '0.27.0', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.8', 'markupsafe': '2.1.5', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.11.7', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '24.0', 'setuptools': '65.5.0', 'pycaret': '3.3.0', 'IPython': '8.22.2', 'ipywidgets': '8.1.2', 'tqdm': '4.66.2', 'numpy': '1.26.4', 'pandas': '2.1.4', 'jinja2': '3.1.3', 'scipy': '1.11.4', 'joblib': '1.3.2', 'sklearn': '1.4.1.post1', 'pyod': '1.1.3', 'imblearn': '0.12.0', 'category_encoders': '2.6.3', 'lightgbm': '4.3.0', 'numba': '0.59.1', 'requests': '2.31.0', 'matplotlib': '3.7.5', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.20.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.1', 'sktime': '0.27.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.8', 'markupsafe': '2.1.5', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.11.8', 'machine': 'AMD64'}}
+  warnings.warn(
+
+2024-09-16 13:41:54,141:WARNING:C:\Users\pytho\AppData\Local\Programs\Python\Python311\Lib\site-packages\pycaret\internal\pipeline.py:146: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '24.2', 'setuptools': '65.5.0', 'pycaret': '3.3.0', 'IPython': '8.22.2', 'ipywidgets': '8.1.2', 'tqdm': '4.66.2', 'numpy': '1.26.4', 'pandas': '2.1.4', 'jinja2': '3.1.3', 'scipy': '1.11.4', 'joblib': '1.3.2', 'sklearn': '1.4.1.post1', 'pyod': '1.1.3', 'imblearn': '0.12.0', 'category_encoders': '2.6.3', 'lightgbm': '4.3.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.7.5', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.19.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.1', 'sktime': '0.27.0', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.8', 'markupsafe': '2.1.5', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.11.7', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '24.0', 'setuptools': '65.5.0', 'pycaret': '3.3.0', 'IPython': '8.22.2', 'ipywidgets': '8.1.2', 'tqdm': '4.66.2', 'numpy': '1.26.4', 'pandas': '2.1.4', 'jinja2': '3.1.3', 'scipy': '1.11.4', 'joblib': '1.3.2', 'sklearn': '1.4.1.post1', 'pyod': '1.1.3', 'imblearn': '0.12.0', 'category_encoders': '2.6.3', 'lightgbm': '4.3.0', 'numba': '0.59.1', 'requests': '2.31.0', 'matplotlib': '3.7.5', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.20.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.1', 'sktime': '0.27.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.8', 'markupsafe': '2.1.5', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.11.8', 'machine': 'AMD64'}}
+  warnings.warn(
+
+2024-09-16 13:42:53,618:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 13:42:53,618:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 13:42:53,618:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 13:42:53,618:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 13:42:55,623:INFO:Initializing load_model()
+2024-09-16 13:42:55,623:INFO:load_model(model_name=app/api/credit_risk_model/credit_risk_pipeline, platform=None, authentication=None, verbose=True)
+2024-09-16 13:43:34,453:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 13:43:34,453:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 13:43:34,453:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 13:43:34,453:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 13:43:35,955:INFO:Initializing load_model()
+2024-09-16 13:43:35,955:INFO:load_model(model_name=C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_pipeline.pkl, platform=None, authentication=None, verbose=True)
+2024-09-16 13:43:51,887:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 13:43:51,887:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 13:43:51,887:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 13:43:51,887:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 13:44:02,866:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 13:44:02,866:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 13:44:02,866:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 13:44:02,867:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 13:44:04,348:INFO:Initializing load_model()
+2024-09-16 13:44:04,348:INFO:load_model(model_name=C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_pipeline, platform=None, authentication=None, verbose=True)
+2024-09-16 13:44:04,964:WARNING:C:\Users\pytho\AppData\Local\Programs\Python\Python311\Lib\site-packages\pycaret\internal\pipeline.py:146: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '24.2', 'setuptools': '65.5.0', 'pycaret': '3.3.0', 'IPython': '8.22.2', 'ipywidgets': '8.1.2', 'tqdm': '4.66.2', 'numpy': '1.26.4', 'pandas': '2.1.4', 'jinja2': '3.1.3', 'scipy': '1.11.4', 'joblib': '1.3.2', 'sklearn': '1.4.1.post1', 'pyod': '1.1.3', 'imblearn': '0.12.0', 'category_encoders': '2.6.3', 'lightgbm': '4.3.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.7.5', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.19.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.1', 'sktime': '0.27.0', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.8', 'markupsafe': '2.1.5', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.11.7', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '24.0', 'setuptools': '65.5.0', 'pycaret': '3.3.0', 'IPython': '8.22.2', 'ipywidgets': '8.1.2', 'tqdm': '4.66.2', 'numpy': '1.26.4', 'pandas': '2.1.4', 'jinja2': '3.1.3', 'scipy': '1.11.4', 'joblib': '1.1.1', 'sklearn': '1.4.1.post1', 'pyod': '1.1.3', 'imblearn': '0.12.2', 'category_encoders': '2.6.3', 'lightgbm': '4.3.0', 'numba': '0.59.1', 'requests': '2.31.0', 'matplotlib': '3.7.5', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.20.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.1', 'sktime': '0.27.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.8', 'markupsafe': '2.1.5', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.11.9', 'machine': 'AMD64'}}
+  warnings.warn(
+
+2024-09-16 13:44:38,879:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 13:44:38,879:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 13:44:38,879:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 13:44:38,879:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 13:44:40,588:INFO:Initializing load_model()
+2024-09-16 13:44:40,588:INFO:load_model(model_name=C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_pipeline, platform=None, authentication=None, verbose=True)
+2024-09-16 13:44:41,233:WARNING:C:\Users\pytho\AppData\Local\Programs\Python\Python311\Lib\site-packages\pycaret\internal\pipeline.py:146: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '24.2', 'setuptools': '65.5.0', 'pycaret': '3.3.0', 'IPython': '8.22.2', 'ipywidgets': '8.1.2', 'tqdm': '4.66.2', 'numpy': '1.26.4', 'pandas': '2.1.4', 'jinja2': '3.1.3', 'scipy': '1.11.4', 'joblib': '1.3.2', 'sklearn': '1.4.1.post1', 'pyod': '1.1.3', 'imblearn': '0.12.0', 'category_encoders': '2.6.3', 'lightgbm': '4.3.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.7.5', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.19.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.1', 'sktime': '0.27.0', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.8', 'markupsafe': '2.1.5', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.11.7', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '24.0', 'setuptools': '65.5.0', 'pycaret': '3.3.0', 'IPython': '8.22.2', 'ipywidgets': '8.1.2', 'tqdm': '4.66.2', 'numpy': '1.26.4', 'pandas': '2.1.4', 'jinja2': '3.1.3', 'scipy': '1.11.4', 'joblib': '1.1.1', 'sklearn': '1.4.1.post1', 'pyod': '1.1.3', 'imblearn': '0.12.2', 'category_encoders': '2.6.3', 'lightgbm': '4.3.0', 'numba': '0.59.1', 'requests': '2.31.0', 'matplotlib': '3.7.5', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.20.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.1', 'sktime': '0.27.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.8', 'markupsafe': '2.1.5', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.11.9', 'machine': 'AMD64'}}
+  warnings.warn(
+
+2024-09-16 13:53:05,398:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 13:53:05,398:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 13:53:05,398:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 13:53:05,398:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 13:53:07,031:INFO:Initializing load_model()
+2024-09-16 13:53:07,031:INFO:load_model(model_name=C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_pipeline.pkl, platform=None, authentication=None, verbose=True)
+2024-09-16 13:53:22,883:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 13:53:22,883:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 13:53:22,883:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 13:53:22,883:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 13:53:24,412:INFO:Initializing load_model()
+2024-09-16 13:53:24,412:INFO:load_model(model_name=C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_pipeline, platform=None, authentication=None, verbose=True)
+2024-09-16 13:53:25,405:WARNING:C:\Users\pytho\AppData\Local\Programs\Python\Python311\Lib\site-packages\pycaret\internal\pipeline.py:146: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '24.2', 'setuptools': '65.5.0', 'pycaret': '3.3.0', 'IPython': '8.22.2', 'ipywidgets': '8.1.2', 'tqdm': '4.66.2', 'numpy': '1.26.4', 'pandas': '2.1.4', 'jinja2': '3.1.3', 'scipy': '1.11.4', 'joblib': '1.3.2', 'sklearn': '1.4.1.post1', 'pyod': '1.1.3', 'imblearn': '0.12.0', 'category_encoders': '2.6.3', 'lightgbm': '4.3.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.7.5', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.19.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.1', 'sktime': '0.27.0', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.8', 'markupsafe': '2.1.5', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.11.7', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '24.0', 'setuptools': '65.5.0', 'pycaret': '3.3.0', 'IPython': '8.22.2', 'ipywidgets': '8.1.2', 'tqdm': '4.66.2', 'numpy': '1.26.4', 'pandas': '2.1.4', 'jinja2': '3.1.3', 'scipy': '1.11.4', 'joblib': '1.1.1', 'sklearn': '1.4.1.post1', 'pyod': '1.1.3', 'imblearn': '0.12.2', 'category_encoders': '2.6.3', 'lightgbm': '4.3.0', 'numba': '0.59.1', 'requests': '2.31.0', 'matplotlib': '3.7.5', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.20.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.1', 'sktime': '0.27.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.8', 'markupsafe': '2.1.5', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.11.9', 'machine': 'AMD64'}}
+  warnings.warn(
+
+2024-09-16 13:53:29,508:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:53:29,508:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:53:29,509:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:53:29,509:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:53:29,509:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:53:29,509:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:53:29,510:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:53:29,510:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:53:29,510:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:53:29,511:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:53:29,511:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:53:29,511:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:53:29,511:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:53:29,512:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:53:29,512:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:53:29,512:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:53:29,512:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:53:29,513:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:53:29,513:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:53:29,513:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:53:29,514:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:53:29,514:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:53:29,514:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:53:29,514:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:53:29,515:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:53:29,516:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:53:29,517:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:53:29,517:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:53:29,517:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:53:29,517:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:53:29,518:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:53:29,518:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:53:29,518:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:53:29,519:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:53:29,519:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:53:29,519:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:53:29,519:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:53:29,519:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:53:29,520:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:53:29,520:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:53:29,520:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:53:29,520:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:53:29,520:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:53:29,521:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:53:29,521:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:53:29,521:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:53:29,521:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:53:29,521:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:53:29,522:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:53:29,522:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:53:29,671:INFO:Initializing predict_model()
+2024-09-16 13:53:29,671:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001C0F7445250>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['score_3', 'score_4', 'score_5',
+                                             'score_6', 'risk_rate',
+                                             'credit_limit', 'income',
+                                             'facebook_profile',
+                                             'n_bankruptcies',
+                                             'n_defaulted_loans', 'n_accounts',
+                                             'n_issues',
+                                             'application_time_in_funnel',
+                                             'external_data_provider_credit_checks_last_month',
+                                             'external_data_provid...
+                                             'reported_income', 'overnight',
+                                             'c55', 'n7', 'n11', 'n4', 'n17',
+                                             'n10', 'da', 'dfa', 'pro+aty',
+                                             'n8', 'c1', ...],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', AdaBoostClassifier(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001C0F7A2B880>)
+2024-09-16 13:53:29,671:INFO:Checking exceptions
+2024-09-16 13:53:29,671:INFO:Preloading libraries
+2024-09-16 13:53:29,671:INFO:Set up data.
+2024-09-16 13:53:29,696:INFO:Set up index.
+2024-09-16 13:55:01,088:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 13:55:01,088:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 13:55:01,088:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 13:55:01,088:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 13:55:02,714:INFO:Initializing load_model()
+2024-09-16 13:55:02,715:INFO:load_model(model_name=C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_pipeline, platform=None, authentication=None, verbose=True)
+2024-09-16 13:55:03,335:WARNING:C:\Users\pytho\AppData\Local\Programs\Python\Python311\Lib\site-packages\pycaret\internal\pipeline.py:146: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '24.2', 'setuptools': '65.5.0', 'pycaret': '3.3.0', 'IPython': '8.22.2', 'ipywidgets': '8.1.2', 'tqdm': '4.66.2', 'numpy': '1.26.4', 'pandas': '2.1.4', 'jinja2': '3.1.3', 'scipy': '1.11.4', 'joblib': '1.3.2', 'sklearn': '1.4.1.post1', 'pyod': '1.1.3', 'imblearn': '0.12.0', 'category_encoders': '2.6.3', 'lightgbm': '4.3.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.7.5', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.19.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.1', 'sktime': '0.27.0', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.8', 'markupsafe': '2.1.5', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.11.7', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '24.0', 'setuptools': '65.5.0', 'pycaret': '3.3.0', 'IPython': '8.22.2', 'ipywidgets': '8.1.2', 'tqdm': '4.66.2', 'numpy': '1.26.4', 'pandas': '2.1.4', 'jinja2': '3.1.3', 'scipy': '1.11.4', 'joblib': '1.1.1', 'sklearn': '1.4.1.post1', 'pyod': '1.1.3', 'imblearn': '0.12.2', 'category_encoders': '2.6.3', 'lightgbm': '4.3.0', 'numba': '0.59.1', 'requests': '2.31.0', 'matplotlib': '3.7.5', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.20.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.1', 'sktime': '0.27.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.8', 'markupsafe': '2.1.5', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.11.9', 'machine': 'AMD64'}}
+  warnings.warn(
+
+2024-09-16 13:55:08,468:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:55:08,469:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:55:08,470:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:55:08,470:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:55:08,470:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:55:08,470:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:55:08,470:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:55:08,470:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:55:08,470:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:55:08,470:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:55:08,471:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:55:08,471:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:55:08,471:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:55:08,471:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:55:08,471:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:55:08,472:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:55:08,472:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:55:08,472:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:55:08,472:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:55:08,472:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:55:08,472:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:55:08,473:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:55:08,473:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:55:08,473:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:55:08,473:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:55:08,474:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:55:08,475:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:55:08,475:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:55:08,475:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:55:08,476:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:55:08,476:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:55:08,476:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:55:08,476:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:55:08,476:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:55:08,476:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:55:08,476:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:55:08,478:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:55:08,478:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:55:08,478:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:55:08,478:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:55:08,478:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:55:08,479:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:55:08,479:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:55:08,479:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:55:08,479:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:55:08,479:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:55:08,479:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:55:08,480:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:55:08,480:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:55:08,480:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 13:55:08,616:INFO:Initializing predict_model()
+2024-09-16 13:55:08,617:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001ECE1157650>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['score_3', 'score_4', 'score_5',
+                                             'score_6', 'risk_rate',
+                                             'credit_limit', 'income',
+                                             'facebook_profile',
+                                             'n_bankruptcies',
+                                             'n_defaulted_loans', 'n_accounts',
+                                             'n_issues',
+                                             'application_time_in_funnel',
+                                             'external_data_provider_credit_checks_last_month',
+                                             'external_data_provid...
+                                             'reported_income', 'overnight',
+                                             'c55', 'n7', 'n11', 'n4', 'n17',
+                                             'n10', 'da', 'dfa', 'pro+aty',
+                                             'n8', 'c1', ...],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', AdaBoostClassifier(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001ECE166B880>)
+2024-09-16 13:55:08,617:INFO:Checking exceptions
+2024-09-16 13:55:08,617:INFO:Preloading libraries
+2024-09-16 13:55:08,617:INFO:Set up data.
+2024-09-16 13:55:08,637:INFO:Set up index.
+2024-09-16 13:56:05,554:WARNING:C:\Users\pytho\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\base.py:486: UserWarning: X has feature names, but RandomForestClassifier was fitted without feature names
+  warnings.warn(
+
+2024-09-16 16:57:10,903:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 16:57:10,903:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 16:57:10,903:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 16:57:10,903:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 16:57:13,976:INFO:Initializing load_model()
+2024-09-16 16:57:13,977:INFO:load_model(model_name=C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_pipeline, platform=None, authentication=None, verbose=True)
+2024-09-16 16:57:15,097:WARNING:C:\Users\pytho\AppData\Local\Programs\Python\Python311\Lib\site-packages\pycaret\internal\pipeline.py:146: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '24.2', 'setuptools': '65.5.0', 'pycaret': '3.3.0', 'IPython': '8.22.2', 'ipywidgets': '8.1.2', 'tqdm': '4.66.2', 'numpy': '1.26.4', 'pandas': '2.1.4', 'jinja2': '3.1.3', 'scipy': '1.11.4', 'joblib': '1.3.2', 'sklearn': '1.4.1.post1', 'pyod': '1.1.3', 'imblearn': '0.12.0', 'category_encoders': '2.6.3', 'lightgbm': '4.3.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.7.5', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.19.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.1', 'sktime': '0.27.0', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.8', 'markupsafe': '2.1.5', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.11.7', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '24.0', 'setuptools': '65.5.0', 'pycaret': '3.3.0', 'IPython': '8.22.2', 'ipywidgets': '8.1.2', 'tqdm': '4.66.2', 'numpy': '1.26.4', 'pandas': '2.1.4', 'jinja2': '3.1.3', 'scipy': '1.11.4', 'joblib': '1.1.1', 'sklearn': '1.4.1.post1', 'pyod': '1.1.3', 'imblearn': '0.12.2', 'category_encoders': '2.6.3', 'lightgbm': '4.3.0', 'numba': '0.59.1', 'requests': '2.31.0', 'matplotlib': '3.7.5', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.20.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.1', 'sktime': '0.27.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.8', 'markupsafe': '2.1.5', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.11.9', 'machine': 'AMD64'}}
+  warnings.warn(
+
+2024-09-16 16:58:16,117:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 16:58:16,118:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 16:58:16,118:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 16:58:16,118:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 16:58:18,989:INFO:Initializing load_model()
+2024-09-16 16:58:18,990:INFO:load_model(model_name=C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_pipeline, platform=None, authentication=None, verbose=True)
+2024-09-16 16:58:19,963:WARNING:C:\Users\pytho\AppData\Local\Programs\Python\Python311\Lib\site-packages\pycaret\internal\pipeline.py:146: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '24.2', 'setuptools': '65.5.0', 'pycaret': '3.3.0', 'IPython': '8.22.2', 'ipywidgets': '8.1.2', 'tqdm': '4.66.2', 'numpy': '1.26.4', 'pandas': '2.1.4', 'jinja2': '3.1.3', 'scipy': '1.11.4', 'joblib': '1.3.2', 'sklearn': '1.4.1.post1', 'pyod': '1.1.3', 'imblearn': '0.12.0', 'category_encoders': '2.6.3', 'lightgbm': '4.3.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.7.5', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.19.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.1', 'sktime': '0.27.0', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.8', 'markupsafe': '2.1.5', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.11.7', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '24.0', 'setuptools': '65.5.0', 'pycaret': '3.3.0', 'IPython': '8.22.2', 'ipywidgets': '8.1.2', 'tqdm': '4.66.2', 'numpy': '1.26.4', 'pandas': '2.1.4', 'jinja2': '3.1.3', 'scipy': '1.11.4', 'joblib': '1.1.1', 'sklearn': '1.4.1.post1', 'pyod': '1.1.3', 'imblearn': '0.12.2', 'category_encoders': '2.6.3', 'lightgbm': '4.3.0', 'numba': '0.59.1', 'requests': '2.31.0', 'matplotlib': '3.7.5', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.20.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.1', 'sktime': '0.27.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.8', 'markupsafe': '2.1.5', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.11.9', 'machine': 'AMD64'}}
+  warnings.warn(
+
+2024-09-16 16:58:26,573:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 16:58:26,573:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 16:58:26,573:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 16:58:26,573:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 16:58:28,686:INFO:Initializing load_model()
+2024-09-16 16:58:28,687:INFO:load_model(model_name=C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_pipeline, platform=None, authentication=None, verbose=True)
+2024-09-16 16:58:29,532:WARNING:C:\Users\pytho\AppData\Local\Programs\Python\Python311\Lib\site-packages\pycaret\internal\pipeline.py:146: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '24.2', 'setuptools': '65.5.0', 'pycaret': '3.3.0', 'IPython': '8.22.2', 'ipywidgets': '8.1.2', 'tqdm': '4.66.2', 'numpy': '1.26.4', 'pandas': '2.1.4', 'jinja2': '3.1.3', 'scipy': '1.11.4', 'joblib': '1.3.2', 'sklearn': '1.4.1.post1', 'pyod': '1.1.3', 'imblearn': '0.12.0', 'category_encoders': '2.6.3', 'lightgbm': '4.3.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.7.5', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.19.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.1', 'sktime': '0.27.0', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.8', 'markupsafe': '2.1.5', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.11.7', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '24.0', 'setuptools': '65.5.0', 'pycaret': '3.3.0', 'IPython': '8.22.2', 'ipywidgets': '8.1.2', 'tqdm': '4.66.2', 'numpy': '1.26.4', 'pandas': '2.1.4', 'jinja2': '3.1.3', 'scipy': '1.11.4', 'joblib': '1.1.1', 'sklearn': '1.4.1.post1', 'pyod': '1.1.3', 'imblearn': '0.12.2', 'category_encoders': '2.6.3', 'lightgbm': '4.3.0', 'numba': '0.59.1', 'requests': '2.31.0', 'matplotlib': '3.7.5', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.20.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.1', 'sktime': '0.27.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.8', 'markupsafe': '2.1.5', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.11.9', 'machine': 'AMD64'}}
+  warnings.warn(
+
+2024-09-16 16:58:50,642:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 16:58:50,642:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 16:58:50,642:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 16:58:50,642:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 16:58:52,694:INFO:Initializing load_model()
+2024-09-16 16:58:52,695:INFO:load_model(model_name=C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_pipeline, platform=None, authentication=None, verbose=True)
+2024-09-16 16:58:53,476:WARNING:C:\Users\pytho\AppData\Local\Programs\Python\Python311\Lib\site-packages\pycaret\internal\pipeline.py:146: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '24.2', 'setuptools': '65.5.0', 'pycaret': '3.3.0', 'IPython': '8.22.2', 'ipywidgets': '8.1.2', 'tqdm': '4.66.2', 'numpy': '1.26.4', 'pandas': '2.1.4', 'jinja2': '3.1.3', 'scipy': '1.11.4', 'joblib': '1.3.2', 'sklearn': '1.4.1.post1', 'pyod': '1.1.3', 'imblearn': '0.12.0', 'category_encoders': '2.6.3', 'lightgbm': '4.3.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.7.5', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.19.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.1', 'sktime': '0.27.0', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.8', 'markupsafe': '2.1.5', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.11.7', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '24.0', 'setuptools': '65.5.0', 'pycaret': '3.3.0', 'IPython': '8.22.2', 'ipywidgets': '8.1.2', 'tqdm': '4.66.2', 'numpy': '1.26.4', 'pandas': '2.1.4', 'jinja2': '3.1.3', 'scipy': '1.11.4', 'joblib': '1.1.1', 'sklearn': '1.4.1.post1', 'pyod': '1.1.3', 'imblearn': '0.12.2', 'category_encoders': '2.6.3', 'lightgbm': '4.3.0', 'numba': '0.59.1', 'requests': '2.31.0', 'matplotlib': '3.7.5', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.20.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.1', 'sktime': '0.27.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.8', 'markupsafe': '2.1.5', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.11.9', 'machine': 'AMD64'}}
+  warnings.warn(
+
+2024-09-16 16:59:05,067:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 16:59:05,067:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 16:59:05,067:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 16:59:05,067:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 16:59:06,753:INFO:Initializing load_model()
+2024-09-16 16:59:06,755:INFO:load_model(model_name=C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_pipeline, platform=None, authentication=None, verbose=True)
+2024-09-16 16:59:07,634:WARNING:C:\Users\pytho\AppData\Local\Programs\Python\Python311\Lib\site-packages\pycaret\internal\pipeline.py:146: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '24.2', 'setuptools': '65.5.0', 'pycaret': '3.3.0', 'IPython': '8.22.2', 'ipywidgets': '8.1.2', 'tqdm': '4.66.2', 'numpy': '1.26.4', 'pandas': '2.1.4', 'jinja2': '3.1.3', 'scipy': '1.11.4', 'joblib': '1.3.2', 'sklearn': '1.4.1.post1', 'pyod': '1.1.3', 'imblearn': '0.12.0', 'category_encoders': '2.6.3', 'lightgbm': '4.3.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.7.5', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.19.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.1', 'sktime': '0.27.0', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.8', 'markupsafe': '2.1.5', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.11.7', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '24.0', 'setuptools': '65.5.0', 'pycaret': '3.3.0', 'IPython': '8.22.2', 'ipywidgets': '8.1.2', 'tqdm': '4.66.2', 'numpy': '1.26.4', 'pandas': '2.1.4', 'jinja2': '3.1.3', 'scipy': '1.11.4', 'joblib': '1.1.1', 'sklearn': '1.4.1.post1', 'pyod': '1.1.3', 'imblearn': '0.12.2', 'category_encoders': '2.6.3', 'lightgbm': '4.3.0', 'numba': '0.59.1', 'requests': '2.31.0', 'matplotlib': '3.7.5', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.20.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.1', 'sktime': '0.27.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.8', 'markupsafe': '2.1.5', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.11.9', 'machine': 'AMD64'}}
+  warnings.warn(
+
+2024-09-16 17:01:02,478:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 17:01:02,479:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 17:01:02,479:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 17:01:02,479:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 17:01:05,077:INFO:Initializing load_model()
+2024-09-16 17:01:05,080:INFO:load_model(model_name=C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_pipeline, platform=None, authentication=None, verbose=True)
+2024-09-16 17:01:06,028:WARNING:C:\Users\pytho\AppData\Local\Programs\Python\Python311\Lib\site-packages\pycaret\internal\pipeline.py:146: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '24.2', 'setuptools': '65.5.0', 'pycaret': '3.3.0', 'IPython': '8.22.2', 'ipywidgets': '8.1.2', 'tqdm': '4.66.2', 'numpy': '1.26.4', 'pandas': '2.1.4', 'jinja2': '3.1.3', 'scipy': '1.11.4', 'joblib': '1.3.2', 'sklearn': '1.4.1.post1', 'pyod': '1.1.3', 'imblearn': '0.12.0', 'category_encoders': '2.6.3', 'lightgbm': '4.3.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.7.5', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.19.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.1', 'sktime': '0.27.0', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.8', 'markupsafe': '2.1.5', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.11.7', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '24.0', 'setuptools': '65.5.0', 'pycaret': '3.3.0', 'IPython': '8.22.2', 'ipywidgets': '8.1.2', 'tqdm': '4.66.2', 'numpy': '1.26.4', 'pandas': '2.1.4', 'jinja2': '3.1.3', 'scipy': '1.11.4', 'joblib': '1.1.1', 'sklearn': '1.4.1.post1', 'pyod': '1.1.3', 'imblearn': '0.12.2', 'category_encoders': '2.6.3', 'lightgbm': '4.3.0', 'numba': '0.59.1', 'requests': '2.31.0', 'matplotlib': '3.7.5', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.20.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.1', 'sktime': '0.27.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.8', 'markupsafe': '2.1.5', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.11.9', 'machine': 'AMD64'}}
+  warnings.warn(
+
+2024-09-16 17:01:43,067:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 17:01:43,068:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 17:01:43,068:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 17:01:43,068:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 17:01:43,069:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 17:01:43,069:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 17:01:43,069:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 17:01:43,069:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 17:01:43,070:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 17:01:43,070:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 17:01:43,070:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 17:01:43,071:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 17:01:43,071:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 17:01:43,071:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 17:01:43,071:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 17:01:43,072:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 17:01:43,072:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 17:01:43,072:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 17:01:43,072:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 17:01:43,073:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 17:01:43,073:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 17:01:43,073:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 17:01:43,073:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 17:01:43,074:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 17:01:43,074:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 17:01:43,074:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 17:01:43,074:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 17:01:43,076:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 17:01:43,076:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 17:01:43,076:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 17:01:43,077:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 17:01:43,077:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 17:01:43,077:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 17:01:43,077:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 17:01:43,078:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 17:01:43,078:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 17:01:43,078:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 17:01:43,079:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 17:01:43,079:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 17:01:43,079:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 17:01:43,079:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 17:01:43,080:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 17:01:43,080:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 17:01:43,080:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 17:01:43,081:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 17:01:43,081:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 17:01:43,081:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 17:01:43,081:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 17:01:43,082:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 17:01:43,082:WARNING:C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_api.py:29: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[col] = 0  # Ou outro valor padrão apropriado
+
+2024-09-16 17:01:43,093:INFO:Initializing predict_model()
+2024-09-16 17:01:43,093:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000021C1F65AAD0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['score_3', 'score_4', 'score_5',
+                                             'score_6', 'risk_rate',
+                                             'credit_limit', 'income',
+                                             'facebook_profile',
+                                             'n_bankruptcies',
+                                             'n_defaulted_loans', 'n_accounts',
+                                             'n_issues',
+                                             'application_time_in_funnel',
+                                             'external_data_provider_credit_checks_last_month',
+                                             'external_data_provid...
+                                             'reported_income', 'overnight',
+                                             'c55', 'n7', 'n11', 'n4', 'n17',
+                                             'n10', 'da', 'dfa', 'pro+aty',
+                                             'n8', 'c1', ...],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', AdaBoostClassifier(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000021C7EF48FE0>)
+2024-09-16 17:01:43,093:INFO:Checking exceptions
+2024-09-16 17:01:43,093:INFO:Preloading libraries
+2024-09-16 17:01:43,094:INFO:Set up data.
+2024-09-16 17:01:43,298:INFO:Set up index.
+2024-09-16 17:06:04,175:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 17:06:04,175:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 17:06:04,175:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 17:06:04,176:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-16 17:06:06,728:INFO:Initializing load_model()
+2024-09-16 17:06:06,728:INFO:load_model(model_name=C:\Users\pytho\Documents\GitHub\SynthAI\IA\app\api\credit_risk_model\credit_risk_pipeline, platform=None, authentication=None, verbose=True)
+2024-09-16 17:06:07,729:WARNING:C:\Users\pytho\AppData\Local\Programs\Python\Python311\Lib\site-packages\pycaret\internal\pipeline.py:146: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '24.2', 'setuptools': '65.5.0', 'pycaret': '3.3.0', 'IPython': '8.22.2', 'ipywidgets': '8.1.2', 'tqdm': '4.66.2', 'numpy': '1.26.4', 'pandas': '2.1.4', 'jinja2': '3.1.3', 'scipy': '1.11.4', 'joblib': '1.3.2', 'sklearn': '1.4.1.post1', 'pyod': '1.1.3', 'imblearn': '0.12.0', 'category_encoders': '2.6.3', 'lightgbm': '4.3.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.7.5', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.19.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.1', 'sktime': '0.27.0', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.8', 'markupsafe': '2.1.5', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.11.7', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '24.0', 'setuptools': '65.5.0', 'pycaret': '3.3.0', 'IPython': '8.22.2', 'ipywidgets': '8.1.2', 'tqdm': '4.66.2', 'numpy': '1.26.4', 'pandas': '2.1.4', 'jinja2': '3.1.3', 'scipy': '1.11.4', 'joblib': '1.1.1', 'sklearn': '1.4.1.post1', 'pyod': '1.1.3', 'imblearn': '0.12.2', 'category_encoders': '2.6.3', 'lightgbm': '4.3.0', 'numba': '0.59.1', 'requests': '2.31.0', 'matplotlib': '3.7.5', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.20.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.1', 'sktime': '0.27.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.8', 'markupsafe': '2.1.5', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.11.9', 'machine': 'AMD64'}}
+  warnings.warn(
+
