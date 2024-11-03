@@ -2,13 +2,13 @@
 from fastapi import FastAPI
 from api.churn_model.churn_api import router as churn_router
 from api.credit_risk_model.credit_risk_api import router as credit_router
-# from api.fraud_detection_model.fraud_api import router as fraud_router
+from api.fraud_detection_model.fraud_api import router as fraud_router
 
 app = FastAPI(title='API Modular de Modelos de Machine Learning')
 
 app.include_router(churn_router, prefix='/churn', tags=['Churn Prediction'])
 app.include_router(credit_router, prefix='/credit_risk', tags=['Credit Risk Prediction'])
-# app.include_router(fraud_router, prefix='/fraud_detection', tags=['Fraud Detection'])
+app.include_router(fraud_router, prefix='/fraud_detection', tags=['Fraud Detection'])
 
 
 
