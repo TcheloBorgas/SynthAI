@@ -3,7 +3,7 @@ Este projeto visa desenvolver e implementar modelos de machine learning para pre
 
 ## Índice
 * Visão Geral do Projeto
-*Funcionalidades
+* Funcionalidades
 * Estrutura do Projeto
 * Instalação
 * Uso
